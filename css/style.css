@@ -1,0 +1,173 @@
+.details {
+	height: 730px;
+	width: 1000px;
+	margin: auto;
+	background: url(../img/flowers.jpg) center / cover no-repeat;
+	position: relative;
+	perspective: 600px;
+	transform-style: preserve-3d;
+}
+.details__butterfly {
+	height: 200px;
+	width: 200px;
+	background: url(../img/butterfly.png) center / contain no-repeat;
+	position: absolute;
+	top: 10px;
+	left: 200px;
+}
+.details__butterfly:hover {
+	transform: translate(-100px, 50px);
+	transition: all 0.9s ease 0s;
+}
+.details__bug {
+	height: 50px;
+	width: 50px;
+	background: url(../img/ladybug.png) center / contain no-repeat;
+	position: absolute;
+	top: 530px;
+	left: 650px;
+}
+.details__bug:hover {
+	transform: scale(1.4);
+	transition: all 0.5s ease 0s;
+}
+.details__sun {
+	height: 200px;
+	width: 200px;
+	background: url(../img/sun.png) center / contain no-repeat;
+	position: absolute;
+	left: 800px;
+}
+.details__sun:hover {
+	transform: rotate(300deg);
+	transition: all 0.9s ease 0s;
+}
+.details__flower {
+	height: 220px;
+	width: 220px;
+	background: url(../img/rose_1.png) center / contain no-repeat;
+	position: absolute;
+	top: 480px;
+	left: 700px;
+}
+.details__flower:hover {
+	transform: skew(-10deg, 0deg) translate(30px, 30px);
+	transition: all 0.9s ease 0s;
+}
+.batterfly {
+perspective: 500px;
+transform-style: preserve-3d;
+}
+.batterfly__style {
+height: 250px;
+width: 150px;
+position: absolute;
+top: 410px;
+left: 100px;
+background: url(../img/butterfly_2.png) center / contain no-repeat;
+transform: rotateX(-10deg);
+}
+.batterfly:hover .batterfly__style{
+	transform: rotateX(0deg);
+	transition: all 0.5s ease 0s;
+}
+.details__rose{
+	height: 150px;
+	width: 150px;
+	position: relative;
+}
+.rose__flower {
+height: 100%;
+width: 100%;
+position: absolute;
+top: 310px;
+left: 360px;
+background: url(../img/rose.png) center / contain no-repeat;
+transform-origin: 20px 30px;
+}
+.details__rose:hover .rose__flower {
+transform: rotate(-360deg);
+transition: all 1.8s ease 0s;
+}
+.details__mix {
+	position: relative;
+}
+.calibri {
+height: 300px;
+width: 350px;
+background: url(../img/back.png) center / contain no-repeat;
+position: absolute;
+top: 430px;
+left: 300px;
+}
+.calibri__bird {
+height: 150px;
+width: 200px;
+background: url(../img/colibri.png) center / contain no-repeat;
+}
+.calibri__bird:hover {
+transform: translateX(40px);
+transition: all 0.9s ease 0s;
+}
+/*2 Part*/
+.attribute {
+max-width: 1000px;
+margin: auto;
+padding-top: 15px;
+}
+.attribute__title {
+	text-align: center;
+	line-height: 1.5;
+	font-size: 30px;
+	font-weight: 900;
+}
+.attribute__body {
+width: 200px;
+height: 200px;
+background-color: aquamarine;
+margin: auto;
+margin-bottom: 40px;
+}
+.attribute__item {
+width: 200px;
+height: 200px;
+background-color: dodgerblue;
+transform: translate(20px, 20px);
+}
+.attribute__item--scale {
+	transform: scale(0.5);
+}
+.attribute__item--rotate {
+	transform: rotate(120deg) scale(0.8);
+}
+.attribute__item--skew {
+	transform: skew(20deg, 30deg);
+}
+.attribute__item--trorigin {
+	transform-origin: 80px 30px;
+}
+.attribute__item--trorigin:hover {
+	transform: rotate(30deg);
+	transition: all 0.9s ease 0s;
+}
+.attribute__body--perspective {
+	perspective: 500px;
+}
+.attribute__item--perspective {
+	transform: rotateY(55deg);
+}
+.attribute__body--origin {
+	perspective: 700px;
+	perspective-origin: 30px 0px;
+}
+.attribute__item--origin {
+	transform: rotateX(70deg);
+}
+.attribute__body--tfstyle {
+	transform-style: preserve-3d;
+	perspective: 400px;
+	background-color: #38a4c567;
+}
+.attribute__item--tfstyle {
+	transform: rotateY(40deg);
+}
